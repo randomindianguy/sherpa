@@ -130,6 +130,54 @@ export function Role() {
           judgment nodes &mdash; not a pure-agent script.
         </p>
 
+        {/* Three outputs per teardown — pulled forward from the strategic prep so the multi-purpose claim is concrete, not abstract */}
+        <div className="mt-14">
+          <p className="mono text-xs uppercase tracking-[0.2em] text-[color:var(--terracotta)]">
+            What each teardown produces
+          </p>
+          <h3 className="display mt-4 text-2xl font-medium leading-tight text-[color:var(--ink)] md:text-3xl">
+            Three outputs.
+            <br />
+            One repeatable workflow.
+          </h3>
+
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {[
+              {
+                label: "01",
+                title: "Pipeline",
+                desc: "Each teardown is a warm intro to a real prospect you'd want on the pipeline anyway.",
+              },
+              {
+                label: "02",
+                title: "Training signal",
+                desc: "Each teardown is a labeled dataset of where the audit hallucinates — the product spec for what Norbu builds next.",
+              },
+              {
+                label: "03",
+                title: "Market signal",
+                desc: "Each teardown is a data point on whether Sherpa's value holds for this prospect type, this vertical, this buyer profile. Twelve teardowns is a segmentation map of where the confirmed market extends.",
+              },
+            ].map((d) => (
+              <article
+                key={d.label}
+                className="card p-6"
+                style={{ borderTop: "2px solid var(--terracotta)" }}
+              >
+                <p className="mono text-[11px] tracking-[0.18em] text-[color:var(--terracotta)]">
+                  {d.label}
+                </p>
+                <h4 className="display mt-2 text-lg font-medium text-[color:var(--ink)]">
+                  {d.title}
+                </h4>
+                <p className="mt-3 text-[14px] leading-relaxed text-[color:var(--ink-soft)]">
+                  {d.desc}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+
         {/* The pipeline — three AI-augmented nodes, T1/T6/T12 progression embedded per node */}
         <div className="mt-16">
           <p className="mono text-xs uppercase tracking-[0.2em] text-[color:var(--terracotta)]">
