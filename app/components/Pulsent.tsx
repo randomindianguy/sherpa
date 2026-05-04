@@ -263,7 +263,7 @@ export function Pulsent() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              sid-pulsent.vercel.app
+              sid-sherpa-pulsent.vercel.app
             </a>
           </p>
         </div>
