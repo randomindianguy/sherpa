@@ -259,7 +259,7 @@ export function Pulsent() {
             Standalone version of this teardown, ready to forward to
             Pulsent &rarr;{" "}
             <a
-              href="https://sid-pulsent.vercel.app"
+              href="https://sid-sherpa-pulsent.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
