@@ -253,6 +253,19 @@ export function Pulsent() {
             contextual layer the audit needs &mdash; and the heavier the
             founder load on every call today.
           </p>
+
+          {/* Forward-able standalone — just-in-time placement when "could I send this" thought arrives */}
+          <p className="mono mt-8 text-[12px] leading-relaxed text-[color:var(--ink-muted)]">
+            Standalone version of this teardown, ready to forward to
+            Pulsent &rarr;{" "}
+            <a
+              href="https://sid-pulsent.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              sid-pulsent.vercel.app
+            </a>
+          </p>
         </div>
       </Container>
     </section>
