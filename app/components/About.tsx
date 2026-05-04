@@ -136,9 +136,8 @@ export function About() {
         <div className="mt-16 max-w-3xl">
           <hr className="rule" />
           <p className="display mt-8 text-2xl font-medium leading-snug text-[color:var(--ink)] md:text-3xl">
-            If the Pulsent teardown lands a meeting for you, I built the
-            AI-augmented prototype of how to scale this without you in the
-            room.
+                If the Pulsent teardown lands a meeting for you, that's teardown one. 
+                The role is the next eleven.
           </p>
           <p className="mt-6 text-base text-[color:var(--ink-soft)]">
             <a href="mailto:sidharth.rama@gmail.com" className="mono">
